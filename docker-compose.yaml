@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  kaggle-santa-2022:
+    image: gcr.io/${PROJECT}/kaggle-santa-2022-lkh:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command:
+      - --list

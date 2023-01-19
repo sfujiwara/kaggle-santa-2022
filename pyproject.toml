@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "kaggle-santa-2022"
+version = "0.1.0"
+description = "https://www.kaggle.com/competitions/santa-2022"
+authors = ["sfujiwara <shuhei.fujiwara@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+invoke = "^1.7.3"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
+numpy = "^1.23.5"
+tqdm = "^4.64.1"
+colorama = "^0.4.6"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
